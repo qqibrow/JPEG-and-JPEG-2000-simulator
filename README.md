@@ -63,6 +63,7 @@ for the process of JPEG2000, please refer to the paper: Wavelets for Computer Gr
 input: a 8*8 block. just as the input of JPEG
 
 transform output:
+
 33  0  0  0  0  0  1  0  
 0  0  0  0  0  0  1  0  
 0  0  0  -1  4  -4  3  -4  
