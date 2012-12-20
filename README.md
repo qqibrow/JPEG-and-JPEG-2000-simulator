@@ -56,7 +56,22 @@ the sequence:
 JPEG2000
 =========
 
-The JPEG2000 works as blow.
+for the process of JPEG2000, please refer to the paper: Wavelets for Computer Graphics: A Primer. This program totally implemented the algorithm of Two-dimensional Haar wavelet transforms on page 4. 
+
+input: a 8*8 block. just as the input of JPEG
+
+transform output:
+33  0  0  0  0  0  1  0  
+0  0  0  0  0  0  1  0  
+0  0  0  -1  4  -4  3  -4  
+0  0  0  0  4  -4  4  -4  
+0  0  1  1  27  -25  23  -21  
+1  -1  0  1  -11  9  -4  5  
+0  0  1  1  -5  7  -9  11  
+0  0  0  0  21  -23  25  -27  
+
+
+
 
 
 
